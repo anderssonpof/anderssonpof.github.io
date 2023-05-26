@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello"
+title: "Hello World"
 date: 2023-05-26
 ---
 
