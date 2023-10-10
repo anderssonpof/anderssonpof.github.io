@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Integration Runtime Windows Authentication"
-date: 2023-10-10
+date: 2023-10-09
 categories: AZURE WINDOWS_SERVER WINDOWS INTEGRATION_RUNTIME DATA_FACTORY
 ---
 

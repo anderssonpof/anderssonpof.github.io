@@ -2,7 +2,6 @@ title: Cloud and stuff
 author: Per Andersson
 description: Technical stuff
 
-
 #########################################################################################
 theme: "minima"
 rss: rss
@@ -11,7 +10,7 @@ future: false
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
