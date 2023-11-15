@@ -13,7 +13,7 @@ As of yesterday, the deployment in the production environment has been successfu
 
 ## Environment
 
-![env](../docs/assets/images/2023-11-15-Environment.png)
+![env](/img/2023-11-15-Environment.png)
 
 In my lab I have the following resources:
 
@@ -36,13 +36,13 @@ A distinctive aspect of our environment is the coexistence of VMX within a share
 The approach may vary depending on your specific objectives and desired outcomes. In my case, I joined an existing environment, so the adjustments required may differ based on your unique circumstances.
 
 To facilitate BGP functionality in this scenario, it is required to activate Routing Intent
-![ri](../docs/assets/images/2023-11-15-Routing_intent.png)
+![ri](/img/2023-11-15-Routing_intent.png)
 
 Disable the Propagate Default Route setting on the virtual network connection linked to the virtual network housing the VMX. However, the necessity of this action may vary based on your specific traffic flow requirements.
-![propagate](../docs/assets/images/2023-11-15-Propagate.png)
+![propagate](/img/2023-11-15-Propagate.png)
 
 Enable the Propagate Gateway Routes feature for the route table associated with the subnet housing the VMX. 
-![rt](../images/2023-11-15-Route_table.png)
+![rt](/img/2023-11-15-Route_table.png)
 
 Additionally, it is crucial to incorporate a rule in the Network Security Group (NSG) associated with the VMX's subnet for on-premise IP addresses. Correspondingly, ensure that the Azure firewall rules permit the required traffic.
 
