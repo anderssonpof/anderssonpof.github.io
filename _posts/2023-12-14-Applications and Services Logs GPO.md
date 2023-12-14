@@ -2,7 +2,7 @@
 layout: post
 title: "Applications and Services Logs GPO"
 date: 2023-12-14
-categories: WINDOWS WINDOWS_SERVER EVENT EVENT_VIEWER EVENT_LOGS
+categories: WINDOWS WINDOWS_SERVER EVENT EVENT_VIEWER EVENT_LOGS GPOß
 ---
 
 # Enable Applications and Services Logs with GPO
